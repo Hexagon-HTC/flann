@@ -147,7 +147,7 @@ if (BUILD_CUDA_LIB)
 endif(BUILD_CUDA_LIB)
 
 include(${CMAKE_BINARY_DIR}/conan_paths.cmake)
-find_package(LZ4 REQUIRED CONFIG)
+find_package(lz4 REQUIRED CONFIG)
 
 #set the C/C++ include path to the "include" directory
 include_directories(BEFORE ${PROJECT_SOURCE_DIR}/src/cpp)
